@@ -2,7 +2,7 @@ import numpy as np
 import sys
 import unicodedata
 
-
+# https://github.com/nkmk/python-tools/blob/b5a380b171365aeab659f754e6487e8e74c73e58/tool/lib/strlib.py
 def get_east_asian_width_count(text):
     count = 0
     for c in text:
